@@ -1,21 +1,33 @@
-#text p, h1 {
+.item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+}
+.text{
     text-align: center;
-    margin: 15px;
 }
-
-
-input{
-   margin-left: 8cm ;
-   width: 5cm;
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    
 }
-button{
-    margin:8.5cm;
-    background-color: rgb(37, 171, 171);
-    height: 35px;
-    width: 4cm;
-    margin-top:1.5em;
+.box1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    margin-top: 15px;
+ 
 }
-i{
-    margin-left: 9.5cm;
-    font-size: 50px;
+.box1 button{
+    background-color: rgb(43, 101, 194);
+}
+#main{
+    background-color: gray;
+    margin: auto;
+    padding: 54px 0;
+    width: 600px ;
 }
